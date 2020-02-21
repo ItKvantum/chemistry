@@ -1,0 +1,51 @@
+body {margin: 0; padding: 0;}
+
+.map {
+	position: relative;
+	text-align: center;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.part {
+	opacity: .3;
+}
+
+.part:hover {
+	transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+
+
+.description {
+	display: none;
+	position: absolute;
+	padding: 2px;
+	box-sizing: border-box;
+	width: 350px;
+	height: 550px;
+	box-shadow: 0 0 3px 2px #ccc;
+	left: 50px;
+	bottom: calc(50% - 200px);
+	font-family: sans-serif;
+	background-color: #ffffff;
+	font-size: 20px;
+	border: 5px;
+}
+
+.description img {
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+.fad {
+	height:750px;
+	width:1680px;
+}
