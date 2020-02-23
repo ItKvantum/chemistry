@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html style="font-family: 'Montserrat', sans-serif;">
+  <head>
+	<title>Тесты от Менделеева</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/js/main.js">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/icon1.jpg" type="image/x-icon">
+    <base target="_blank">
+  </head>
+	<body>
+	
+	<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">Гид от Менделеева</div>
+            <nav class="nav">
+<button style="width:auto; background-color: #010415;" class="nav__link"><a href="index.html" target="_self" style="color: aliceblue;">Главная</a></button>
+<button onclick="document.('id01').style.display='block'" style="width:auto; background-color: #010415;" class="nav__link">Связь</button>
+<button onclick="document.('id01').style.display='block'" style="width:auto; background-color: #010415;" class="nav__link">Подарки</button>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color: #010415;" class="nav__link">Войти</button>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color: #010415;" class="nav__link">Регистрация</button>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Регистрация</h1>
+      <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+      <hr>
+      <label for="email"><b>Имеил</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Повторите Пароль</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня.
+      </label>
+
+      <p>Создавая учетную запись, вы соглашаетесь с нашими<a href="#" style="color:dodgerblue"> Условия и Конфиденциальность</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Отменить</button>
+        <button type="submit" class="signupbtn">Зарегистрироваться</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+				
+            </nav>
+        </div>
+    </div>
+</header>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<div class="introtest">
+    <div class="container">
+        <div class="intro__inner">
+            <h2 class="intro__suptitle">Тесты от Менделеева</h2>
+            <h1 class="intro__title">знания сила?</h1>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item active">
+                    <span class="slider__num">01</span>
+                    Шапка сайта
+                </div>
+                <div class="slider__item">
+                    <span class="slider__num">02</span>
+                    Вступление
+                </div>
+                <div class="slider__item">
+                    <span class="slider__num">03</span>
+                    Тесты
+                </div>
+                <div class="slider__item">
+                    <span class="slider__num">04</span>
+                    Интересный факт
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+	
+<section class="section" style="">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle"></h3>
+            <h2 class="section__title">Вступление</h2>
+            <div class="section__text">
+                <a name="">После прочтения материала мы вожете воспользоваться возможностью пройти тест и проверить ваши знания.</a>
+				<P name="">В мире полно ненужной, но интересной для нас информации. Пусть она не пригодится вам в жизни, зато этот тест пошевелит ваше серое вещество. Хотите другой тест? Выбирайте по Меню тестов.</P>
+				<P name="">Приятного процесса!</P>
+		</div>
+</div>
+</section>
+	
+<section class="section" style="">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle"></h3>
+			<h2 class="section__title">Химия. Физические явления в химии. Часть 1.</h2>
+        </div>
+</div>
+</section>
+	
+	
+
+
+<section style="margin:110px; font-size: 30px; font-family: 'Kaushan Script', cursive; " class="">
+		<div class="list"></div>
+		<input type="button" onclick="ok();" value="ok">
+		
+		<script style="font-size: 25px; font-family: 'Kaushan Script', cursive;" >
+var questions = [{
+	question: 'Укажите физическое явление.',
+	responses: [
+		'скисание молока',
+		'плавление металла',
+		'ржавление железа'
+		],
+	success: [2]
+}, {
+
+	question: 'Для отделения спирта от воды можно использовать',
+	responses: [
+		'выпаривание и кристаллизацию',
+		'дистилляцию',
+		'отстаивание',
+		'фильтрование'
+		],
+	success: [2]
+}, {
+	question: 'Для выделения поваренной соли из ее смеси с песком и другими нерастворимыми примесями можно использовать',
+	responses: [
+		'отстаивание смеси в воде',
+		'возгонку',
+		'растворение, фильтрование и выпаривание',
+		'центрифугирование'
+		],
+	success: [2]
+}, {
+	question: 'На водоочистных станциях в качестве фильтра используют',
+	responses: [
+		'сито',
+		'уголь',
+		'бумагу',
+		'песок'
+		],
+	success: [3]
+}, {
+	question: 'Укажите химическое явление.',
+	responses: [
+		'растворение сахара в воде',
+		'испарение воды',
+		'разложение сернистой кислоты',
+		'плавление льда'
+		],
+	success: [3]
+}, {
+	question: 'Укажите физическое явление.',
+	responses: [
+		'перегонка нефти',
+		'синтез аммиака NH3 из водорода и азота',
+		'горение угля',
+		'разложение угольной кислоты'
+		],
+	success: [1]
+}];
+
+
+//init
+var div, list = document.querySelector('.list');
+for (var i = 0, ln = questions.length; i < ln; ++i) {
+	var quest = questions[i];
+	div = document.createElement('div');
+	
+	div.setAttribute('quest', i);
+	
+	var r = [];
+	for (var j = 0, lnR = quest.responses.length; j < lnR; ++j) {
+		r.push('<div><input type="checkbox" num="' + j + '">' + quest.responses[j] + '</div>')
+	}
+	
+	div.innerHTML = [
+		'<div>' + quest.question + '</div>',
+		'<div>' + r.join('') + '</div>'
+	].join('');
+	
+	list.appendChild(div);
+}
+
+
+function ok () {
+	var q = document.querySelectorAll('div[quest]'),
+		po = [];
+	
+	Array.prototype.forEach.call(q, function (val, index) {
+		var resp = [],
+			success = questions[index].success;
+		
+		Array.prototype.forEach.call(val.querySelectorAll('input[type=checkbox]:checked'), function (checkbox) {
+			resp.push(parseInt(checkbox.getAttribute('num')));
+		})
+		
+		console.log(resp);
+		console.log(success)
+		
+		if (success.every(function (v) {return resp.indexOf(v) !== -1;})) {
+			po.push(index + 1);
+		}
+	});
+	
+	alert('Вы дали правильные ответы: ' + po.join(', '))
+}
+
+		</script>
+		</section>
+		
+		
+		<section class="">
+    <div style="margin:110px">
+
+            <div class="">
+            <h2 class="section__title">Интересные факты</h2>
+	</div>
+            <div class="section__text">
+                <a name="" class="">1. Среднее человеческое тело содержит достаточно серы, чтобы убить всех блох на средней собаке; углерода — чтобы изготовить 900 карандашей; калия — чтобы выстрелить из игрушечной пушки; жира — чтобы сделать 7 кусков мыла; и достаточно воды, чтобы заполнить бочку в 50 литров.</a>
+                <p name="" class="">2. Чувство жажды появляется при потере воды, равной 1 % от веса тела. Потеря более 5 % может привести к обмороку, а более 10 % — к смерти от обезвоживания.</p>
+                <p name="" class="">3. В среднем 4-летний ребенок задает в день 450 вопросов.</p>
+				<p name="" class="">4. В головном мозге человека за 1 секунду происходит 100 тыс. химических реакций.</p>
+				<p name="" class="">5. Самая сильная мышца в человеческом теле — язык.</p>
+				<p name="" class="">6. Человеческий глаз способен различать 10 млн цветовых оттенков.</p>
+				<p name="" class="">7. Каждый год гибнут более 2 000 левшей из-за ошибок в эксплуатации механизмов, предназначенных для правшей.</p>
+				<p name="" class="">8. 1 % людей может видеть инфракрасное излучение, и 1 % — ультрафиолетовое.</p>
+		   </div>
+</section>
+
+		
+	</body>
+</html>
